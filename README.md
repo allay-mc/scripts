@@ -21,12 +21,12 @@ You can read more in the [documentation](https://allay.github.io/docs/scripts.ht
 
 Each script contains a concise description at the top of the file.
 
-Script             | Exists | Description                                                              | Author <!-- full name or username with optional link to homepage or profile -->
--------------------|--------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------
-`transformjson.rb` | ✅     | Transform JSON in order to make it human readable or save file size.     | [phoenixr-codes](https://github.com/phoenixr-codes)
-`templating.rb`    | ✅     | Enables [ERB](https://github.com/ruby/erb) for your files                | [phoenixr-codes](https://github.com/phoenixr-codes)
-`yaml_to_json.rb`  | ✅     | Converts [YAML](https://yaml.org/) to JSON                               | [phoenixr-codes](https://github.com/phoenixr-codes)
-`autoimport.rb`    | ❌     | Copies the build into the corresponding Minecraft add-on folder          | [phoenixr-codes](https://github.com/phoenixr-codes)
+Script             | Exists | Description                                                              | License                                                     | Author <!-- full name or username with optional link to homepage or profile -->
+-------------------|--------|--------------------------------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------------------------
+`transformjson.rb` | ✅     | Transform JSON in order to make it human readable or save file size.     | [Unlicense](https://choosealicense.com/licenses/unlicense/) | [phoenixr-codes](https://github.com/phoenixr-codes)
+`templating.rb`    | ✅     | Enables [ERB](https://github.com/ruby/erb) for your files                | [Unlicense](https://choosealicense.com/licenses/unlicense/) | [phoenixr-codes](https://github.com/phoenixr-codes)
+`yaml_to_json.rb`  | ✅     | Converts [YAML](https://yaml.org/) to JSON                               | [Unlicense](https://choosealicense.com/licenses/unlicense/) | [phoenixr-codes](https://github.com/phoenixr-codes)
+`autoimport.rb`    | ❌     | Copies the build into the corresponding Minecraft add-on folder          | [Unlicense](https://choosealicense.com/licenses/unlicense/) | [phoenixr-codes](https://github.com/phoenixr-codes)
 
 
 ## Requirements
