@@ -41,10 +41,10 @@ removing all unnecessary spaces to reduce the total file size.
   (default: 1 space)
 - `--before-colon=AMOUNT` --- amount of spaces inserted after each colon
   (`:`) (default: none)
-- `--array-indent` --- amount of newlines used to indent arrays (default: 1
-  newline)
-- `--object-indent` --- amount of newlines used to indent objects (default: 1
-  newline)
+- `--array-indent=AMOUNT` --- amount of newlines used to indent arrays
+  (default: 1 newline)
+- `--object-indent=AMOUNT` --- amount of newlines used to indent objects
+  (default: 1 newline)
 
 Leaving all options will generate human readable format by default.
 
@@ -109,7 +109,7 @@ OptionParser.new do |opts|
     options[:array_nl] = "\n" * Integer(a)
   end
 
-  opts.on "--object-indent" do |a|
+  opts.on "--object-indent=AMOUNT" do |a|
     options[:object_nl] = "\n" * Integer(a)
   end
 end.parse!
