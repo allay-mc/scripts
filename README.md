@@ -2,7 +2,7 @@
 
 Common Allay scripts that can be used for your project. Copy the scripts you
 need into your `scripts/` directory of your project or simply use
-`allay add <name_of_script>` without its extension and dont't forget to include
+`allay add <name_of_script>` without its extension and don't forget to include
 it in your `allay.toml` configuration file in the right place.
 
 ```toml
