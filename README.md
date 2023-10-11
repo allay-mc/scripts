@@ -17,7 +17,7 @@ post = [
 ]
 ```
 
-You can read more in the [documentation](https://allay-mc.github.io/docs/scripts.html).
+You can read more in the [documentation](https://allay-mc.github.io/docs/scripts/index.html).
 
 Each script contains a concise description at the top of the file.
 
