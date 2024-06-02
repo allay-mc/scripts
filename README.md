@@ -1,5 +1,9 @@
 # Allay Scripts
 
+> [!WARNING]
+> The scripts present in this repository are deprecated as of Allay version 0.1.0
+> and will likely not work.
+
 Common Allay scripts that can be used for your project. Copy the scripts you
 need into your `scripts/` directory of your project or simply use
 `allay add <name_of_script>` without its extension and don't forget to include
